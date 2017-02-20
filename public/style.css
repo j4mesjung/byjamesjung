@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #1d1d1d;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header,
+.experience,
+.blog {
+  padding: 50px 12% 30px 12%;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+.header {
+  height: 80vh;
+}
+
+.label {
+  font-size: 70%;
+}
+
+.introName {
+  position: absolute;
+  top: 50%;
+  max-width: 950px;
+  line-height: 130%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.headerDesc {
+  font-size: 120%;
+}
+
+/* ----------------------------------------------- */
+/* MEAT */
+/* ----------------------------------------------- */
+
+.meat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* ----------------------------------------------- */
+/* PROJECT */
+/* ----------------------------------------------- */
+
+.projectList {
+  margin-top: 20px;
+}
+
+.project img {
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 12%;
+}
+
+.email {
+  margin-right: 50px;
+}
+
+.email,
+.social {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li a {
+  color: #888;
+  border: 0;
+}
+
+.ion-social-facebook,
+.ion-social-github,
+.ion-social-linkedin {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.ion-social-facebook:hover {
+  color: #4e69a2;
+}
+
+.ion-social-github:hover {
+  color: #333;
+}
+.ion-social-linkedin:hover {
+  color: #00aced;
+}
