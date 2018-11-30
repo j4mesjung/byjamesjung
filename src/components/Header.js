@@ -16,11 +16,8 @@ const adjs = [
   {
     name: 'Node.js',
     color: '#2ecc71'
-  },
-  {
-    name: 'jQuery',
-    color: '#e67e22'
-  }]
+  }
+]
 
 class Header extends Component {
 
@@ -64,7 +61,7 @@ class Header extends Component {
         <div className='introName'>
           <span className='label'>// james jung</span>
           <br />
-          <span className='headerDesc'>Currently a Software Engineer at Capital One developing Web Applications built with
+          <span className='headerDesc'>Currently a Software Engineer at Snapchat developing Web Applications built with
           <span style={{color: this.state.color}}> {this.state.name}</span></span>
         </div>
       </section>
